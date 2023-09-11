@@ -1,19 +1,10 @@
-import edu.cursos.javaBasico.Televisao;
+import edu.cursos.projetos.ContaBancaria.ContaTerminal;
 
 public class App {
     public static void main(String[] args) throws Exception {
-       Televisao lg = new Televisao();
+       ContaTerminal conta = new ContaTerminal();
 
-       lg.ligarTV();
-       lg.desligarTV();
-       lg.aumentarVolume();
-       lg.aumentarVolume();
-       lg.aumentarVolume();
-       lg.aumentarVolume();
-
-       lg.escolherCanal(10);
-       
-       lg.status();
+       conta.status();
 
     }
 
