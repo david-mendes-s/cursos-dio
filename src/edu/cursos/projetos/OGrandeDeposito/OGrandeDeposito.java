@@ -11,7 +11,7 @@ public class OGrandeDeposito {
 
         DecimalFormat df = new DecimalFormat("#.##");
 
-        System.out.println(df.format(valor));
+        
 
         if (valor > 0) {
             //TODO: Imprimir a mensagem de sucesso, formatando o saldo atual (vide Exemplos).
